@@ -26,5 +26,6 @@
     },
   },
   "include": ["src", "vitest.setup.ts"],
+  "exclude": ["src/routeTree.gen.ts"],
   "references": [{ "path": "./tsconfig.node.json" }],
 }
